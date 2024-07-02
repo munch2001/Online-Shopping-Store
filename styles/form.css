@@ -1,0 +1,128 @@
+
+    .container12 {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border: none;
+        background-image: linear-gradient(to right, #E91E63, #B266FF);
+		opacity: 0.8; /* Set the opacity value */
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+		font-size:20px;
+        margin-bottom: 5px;
+    }
+
+    .form-control {
+        width: 80%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .form-control:focus {
+        outline: none;
+        border-color: #4CAF50;
+    }
+
+    button.btn {
+        display: block;
+        width: 100%;
+        padding: 12px;
+        font-size: 20px;
+        background-color: #808080;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button.btn:hover {
+        background-color: #333333;
+    }
+	
+    .container2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .table-container {
+        background-color: #f2f2f2;
+        padding: 20px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        flex-basis: 48%;
+    }
+
+    .table-container:nth-child(odd) {
+        margin-right: 2%;
+    }
+
+    .table-container:last-child {
+        flex-basis: 100%;
+    }
+
+    .container2 img {
+        max-width: 100%;
+        height: auto;
+        margin-top: -270px;
+        margin-bottom: 200px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-left: -100px;
+		
+    }
+
+    .container2 table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .container2 thead th {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .container2 tbody td {
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+        text-align: center;
+    }
+
+    .container2 tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .container2 tbody tr:hover {
+        background-color: #e0e0e0;
+    }
+
+    .container2 h3 {
+        color: #333;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .container2 table td:first-child {
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .container2 table td:not(:first-child) {
+        text-align: center;
+    }
+	
+	

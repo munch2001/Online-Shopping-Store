@@ -1,0 +1,95 @@
+body{
+	background-image: url("../images/background.jpg");
+}
+div.login
+{
+	background-size: cover;
+	/* background-position: center; */
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	
+	
+}
+
+.field
+{
+
+	width:320px;
+	height:420px;
+	/* background: #FFC0CB; */
+	background-color:#CF8CD5;
+	/* background: transparent; */
+	color: #000;
+	/* top: 50%; */
+	/* left: 50%; */
+	position: relative;
+	transform: translate(175%);
+	/* box-sizing: border-box; */
+	padding: 20px;
+	margin-top: 150px;
+	margin-left: 50px;
+	margin-right: 400px;
+	margin-bottom: 150px;
+
+
+}
+/* .login */
+/* { */
+
+	/* text-align: center; */
+
+/* } */
+
+/* div.container */
+/* { */
+	/* text-align: center; */
+
+/* } */
+
+
+.field input[type = "text"], input[type = "password"]
+{
+	width: 100%;
+	margin-bottom: 10px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 13px;
+}
+.field button[type = "submit"]
+{
+	width: 100%;
+	margin-bottom: 10px;
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #000000;
+	color: #fff;
+	border-radius: 20px;
+}
+
+.field button[type = "submit"]:hover
+{
+	cursor: pointer;
+	background: #808080;
+	color: #000;
+}
+
+.field a
+{
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 20px;
+	color: black;
+	
+}
+
+.field a:hover
+{
+	color: #808080;
+}

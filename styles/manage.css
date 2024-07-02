@@ -1,0 +1,57 @@
+.btn{
+  background-color: #CF8CD5;
+  color:black;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+
+}
+.table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  /* padding: 20px; */
+  
+  
+}
+.table td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  
+}
+.table th{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #CF8CD5;
+	color: black;
+}
+/* tr:nth-child(even) { */
+  /* background-color: #dddddd; */
+/* } */
+
+a{
+	text-decoration:none;
+}
+
+.btn:hover{
+	color:#fff;
+}
+.operation{
+	background-color: #AD5FB0;
+	border: none;
+	border-radius: 6px;
+	color: white;
+	padding: 8px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 5px;
+}

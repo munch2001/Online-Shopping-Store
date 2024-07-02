@@ -1,0 +1,141 @@
+.container_profile {
+    display: flex;
+    width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #6e6363;
+    border-radius: 10px;
+}
+
+.profileinfor {
+    width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.profileinfor h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #333;
+  }
+
+.profileinfor p {
+  font-size: 20px;
+}
+
+.pro_4to {
+    margin-left:200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.profileinfor button {
+  font-size: 20px;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 400px;
+  height: 50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #885a9b;
+  color:white;
+}
+
+.profileinfor button:hover {
+  background-color: #5c245c;
+}
+
+.container_reg {
+    width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .container_reg h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .form-section {
+    margin-bottom: 20px;
+  }
+  
+  .form-section label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .form-section input[type="text"],
+  .form-section input[type="email"],
+  .form-section input[type="password"],
+  .form-section input[type="date"],
+  #country {
+    width: 75%;
+    margin-left: 25%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+
+  .form-section input[type="submit"] {
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #885a9b;
+    color:white;
+  }
+
+  .form-section input[type="submit"]:hover {
+    background-color: #5c245c;
+  }
+
+  .custom-file-upload {
+    display: inline-block;
+    background-color: #dda3fd;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .custom-file-upload span {
+    margin-right: 8px;
+  }
+  
+  .custom-file-upload input[type="file"] {
+    display: none;
+  }
+
+  .custom-file-upload {
+    text-align: center;
+  }
+
+    
+  .abc {
+      display:flex;
+  }
+
+
+.error {
+    color: red;
+}

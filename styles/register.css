@@ -1,0 +1,70 @@
+/*registration page styles*/
+.container_reg {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .container_reg h2 {
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+  }
+  
+  .form-section {
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+
+  .form-section label{
+    font-size: 20px;
+  }
+  
+  .form-section label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-section input[type="text"],
+  .form-section input[type="email"],
+  .form-section input[type="password"],
+  .form-section input[type="date"],
+  #country {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  #reg_submit {
+      width: 30%;
+      padding: 20px;
+      margin-left: 500px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 20px;
+  }
+  
+  #reg_submit:hover {
+    background-color: #45a049;
+  }
+  
+  .abc {
+      display:flex;
+  }
+  
+  #tnc {
+      width: 50%;
+      text-align: justify;
+  }
